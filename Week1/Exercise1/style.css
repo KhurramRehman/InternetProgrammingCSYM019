@@ -1,0 +1,28 @@
+body {
+	margin: 100px 20% 0 20%;
+	border-style: outset;
+	border-width: 0 3px 3px 0;
+}
+
+.nav-links ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-links ul a {
+	text-decoration: none;
+	margin-right: 20px;
+	background-color: whitesmoke;
+}
+
+.nav-links ul li  {
+	display: inline;
+}
+
+.row-top {
+	margin: 100px 0 -10px 0;
+}
+.row-bottom {
+	margin-top: -10px;
+}

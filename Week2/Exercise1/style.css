@@ -1,0 +1,17 @@
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+.part1 p {
+	background: black;
+	color: white;
+}
+
+.part2 p {
+	background: darkred;
+	color: green;
+}

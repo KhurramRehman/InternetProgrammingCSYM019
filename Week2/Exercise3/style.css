@@ -3,6 +3,7 @@ section {
 	float: left;
 	border-style: outset;
 	border-width: 5px;
+	margin-bottom: 20px;
 }
 
 section h1 {
@@ -16,11 +17,11 @@ section h2 {
 section p {
 	font-family: 'Brush Script MT';
 }
-.csym019 {
+.csym019, .csym020 {
 	background-color: aqua;
 }
 
-.csym015 {
+.csym015, .csym016 {
 	background-color: yellow;
 	float: right;
 }

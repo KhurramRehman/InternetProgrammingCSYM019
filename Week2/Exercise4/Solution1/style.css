@@ -1,0 +1,69 @@
+/*header {
+	background-color: green;
+}
+footer {
+	background-color: yellow;
+}
+section {
+	float: left;
+}
+.content {
+	background-color: aqua;
+	display: table; 
+	height: auto;
+}
+
+.left-content {
+	height: 100%;
+	width: 20%;
+	background-color: yellow;
+}
+.right-content {
+	height: 100%;
+	width: 20%;
+	background-color: green;
+}
+.middle-content {
+	height: 100%;
+	width: 60%;
+	background-color: blueviolet;
+}*/
+body {
+	margin: 0;
+}
+thead {
+	height: 100px;
+	background-color: blue;
+	color: white;
+}
+thead h1 {
+	margin: 0;
+}
+tfoot {
+	height: 40px;
+	background-color: green;
+	color: white;
+}
+tfoot h3 {
+	margin: 0;
+}
+table {
+	height: 937px;
+	padding: 0;
+	border-spacing: 0;
+}
+.left-content {
+	vertical-align: top;
+	width: 20%;
+	background-color: yellow;
+}
+.right-content {
+	vertical-align: top;
+	width: 20%;
+	background-color: mintcream;
+}
+.middle-content {
+	vertical-align: top;
+	width: 60%;
+	background-color: blueviolet;
+}

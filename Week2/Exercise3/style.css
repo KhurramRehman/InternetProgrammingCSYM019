@@ -1,0 +1,26 @@
+section {
+	width: 48%;
+	float: left;
+	border-style: outset;
+	border-width: 5px;
+}
+
+section h1 {
+	font-family: sans-serif;
+}
+
+section h2 {
+	font-family: verdana;
+}
+
+section p {
+	font-family: 'Brush Script MT';
+}
+.csym019 {
+	background-color: aqua;
+}
+
+.csym015 {
+	background-color: yellow;
+	float: right;
+}

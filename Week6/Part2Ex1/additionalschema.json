@@ -1,0 +1,53 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "title": "Cars Schema",
+    "description": "A detail of all the cars with their owner names",
+
+    "type" : "object",
+    "properties": {
+        "Cars" : {
+            "type" : "array",
+            "items": {
+                "type" : "object",
+                "properties": {
+                    "id" : {
+                        "type" : "integer"
+                    },
+                    "brand" : {
+                        "type" : "string",
+                        "enum": ["BMW", "Mercedes", "Ferrari"]
+                    },
+                    "make" : {
+                        "type" : "integer"
+                    },
+                    "engine" : {
+                        "type" : "string"
+                    },
+                    "passenger_capacity" : {
+                        "type" : "integer",
+                        "enum": [2, 4]
+                    },
+                    "insurance_paid" : {
+                        "type" : "boolean",
+                        "enum": [true, false]
+                    },
+                    "color" : {
+                        "type" : "string",
+                        "enum": ["Metallic Gray", "Metallic Blue", "Ferrari Red"]
+                    },
+                    "owner" : {
+                        "type" : "object",
+                        "properties": {
+                            "name" : {
+                                "type" : "string"
+                            },
+                            "email" : {
+                                "type" : "string"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

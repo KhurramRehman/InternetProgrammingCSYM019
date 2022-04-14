@@ -1,0 +1,43 @@
+{
+    "Cars" : [
+        {
+            "id" : 1,
+            "brand" : "Mercedes",
+            "make" : 2001,
+            "engine" : "2.5L",
+            "passenger_capacity" : 4,
+            "insurance_paid" : true,
+            "color" : "Metallic Gray",
+            "owner" : {
+                "name" : "Khurram Rehman",
+                "email" : "krehman@gmail.com"
+            }
+        },
+        {
+            "id" : 2,
+            "brand" : "BMW",
+            "make" : 2003,
+            "engine" : "2.7L",
+            "passenger_capacity" : 4,
+            "insurance_paid" : false,
+            "color" : "Metallic Blue",
+            "owner" : {
+                "name" : "Khurram Rehman",
+                "email" : "krehman@gmail.com"
+            }
+        },
+        {
+            "id" : 3,
+            "brand" : "Ferrari",
+            "make" : 2007,
+            "engine" : "3.0L",
+            "passenger_capacity" : 4,
+            "insurance_paid" : true,
+            "color" : "Ferrari Red",
+            "owner" : {
+                "name" : "Khurram Rehman",
+                "email" : "krehman@gmail.com"
+            }
+        }
+    ]
+}
